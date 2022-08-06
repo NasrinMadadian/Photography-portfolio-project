@@ -1,0 +1,47 @@
+:root{
+    --primary-color: #202020;
+    --secondary-color: #282323;
+}
+body{
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+}
+.hero{
+     position: relative;
+  text-align: center;
+}
+.hero-text{
+    color: aliceblue;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media(max-width: 574px){
+  
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 12px;
+        font-weight: 400px;
+    }
+    .hero-text p {
+        display: none;
+    }
+    .footer-text{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+.col-md-4{
+ width: auto;
+padding: 10px;
+}
+.social i{
+    font-size: 14px;
+  
+}
+footer{
+    background-color: var(--secondary-color);
+}
